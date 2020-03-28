@@ -1,0 +1,8 @@
+1)
+package
+Base class-----setup/Chrome/Url
+Annotation Class  ----login/logout     createuser/delete user
+
+Annotation Class  extends BaseClass
+
+Test NG xml ---Annotation class---RUN

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75" started-at="2020-03-28T07:28:50Z" finished-at="2020-03-28T07:28:50Z">
+    <groups>
+    </groups>
+    <test name="Regression-Test" duration-ms="27" started-at="2020-03-28T07:28:50Z" finished-at="2020-03-28T07:28:50Z">
+      <class name="annotationPackage.AnnotationsClass">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:annotationPackage.AnnotationsClass@56f4468b]" name="openURL" is-config="true" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="login()[pri:0, instance:annotationPackage.AnnotationsClass@56f4468b]" name="login" is-config="true" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createUser()[pri:99, instance:annotationPackage.AnnotationsClass@56f4468b]" name="createUser" duration-ms="4" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:annotationPackage.AnnotationsClass@56f4468b]" name="logout" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:annotationPackage.AnnotationsClass@56f4468b]" name="login" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteUser()[pri:100, instance:annotationPackage.AnnotationsClass@56f4468b]" name="deleteUser" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:annotationPackage.AnnotationsClass@56f4468b]" name="logout" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeURL()[pri:0, instance:annotationPackage.AnnotationsClass@56f4468b]" name="closeURL" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- annotationPackage.AnnotationsClass -->
+      <class name="annotationPackage.AnnotationClass2">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:annotationPackage.AnnotationClass2@5d5eef3d]" name="openChrome" is-config="true" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method status="PASS" signature="userProfile()[pri:0, instance:annotationPackage.AnnotationClass2@5d5eef3d]" name="userProfile" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userProfile -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:annotationPackage.AnnotationClass2@5d5eef3d]" name="closeChrome" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- annotationPackage.AnnotationClass2 -->
+    </test> <!-- Regression-Test -->
+    <test name="Functional-Test" duration-ms="15" started-at="2020-03-28T07:28:50Z" finished-at="2020-03-28T07:28:50Z">
+      <class name="annotationPackage.AnnotationsClass">
+        <test-method status="PASS" signature="createUser()[pri:99, instance:annotationPackage.AnnotationsClass@675d3402]" name="createUser" duration-ms="2" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:annotationPackage.AnnotationsClass@675d3402]" name="openURL" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="login()[pri:0, instance:annotationPackage.AnnotationsClass@675d3402]" name="login" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:annotationPackage.AnnotationsClass@675d3402]" name="logout" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:annotationPackage.AnnotationsClass@675d3402]" name="login" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteUser()[pri:100, instance:annotationPackage.AnnotationsClass@675d3402]" name="deleteUser" duration-ms="2" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:annotationPackage.AnnotationsClass@675d3402]" name="logout" is-config="true" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeURL()[pri:0, instance:annotationPackage.AnnotationsClass@675d3402]" name="closeURL" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeURL -->
+      </class> <!-- annotationPackage.AnnotationsClass -->
+      <class name="annotationPackage.AnnotationClass2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:annotationPackage.AnnotationClass2@28feb3fa]" name="setup" is-config="true" duration-ms="10" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:annotationPackage.AnnotationClass2@28feb3fa]" name="openChrome" is-config="true" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method status="PASS" signature="userProfile()[pri:0, instance:annotationPackage.AnnotationClass2@28feb3fa]" name="userProfile" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userProfile -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:annotationPackage.AnnotationClass2@28feb3fa]" name="closeChrome" is-config="true" duration-ms="1" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:annotationPackage.AnnotationClass2@28feb3fa]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-28T12:58:50Z" finished-at="2020-03-28T12:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- annotationPackage.AnnotationClass2 -->
+    </test> <!-- Functional-Test -->
+  </suite> <!-- Suite -->
+</testng-results>
