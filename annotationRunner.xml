@@ -6,22 +6,24 @@
 
 
 
-  <test name="Regression-Test">
-    <classes>
-      <class name="annotationPackage.AnnotationsClass"/> 
-      <class name="annotationPackage.AnnotationClass2"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  <test name="Functional-Test">
-    <classes>
-      <class name="annotationPackage.AnnotationsClass"/> 
-      <class name="annotationPackage.AnnotationClass2"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  
-  
+	<test name="Regression-Test">
+		<classes>
+			<class name="assertionPackage.softAssertion">
+				<!-- <methods>
+					<include name="createUser" />
+					<exclude name="createUser"  />
+
+				</methods> -->
+
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- <test name="Functional-Test"> <classes> <class name="annotationPackage.AnnotationsClass"/> 
+		<class name="annotationPackage.AnnotationClass2"/> </classes> </test> Test -->
+
+
 </suite> <!-- Suite -->
 
 

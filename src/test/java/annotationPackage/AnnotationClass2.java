@@ -30,6 +30,7 @@ public class AnnotationClass2 {
 	@BeforeSuite
 	public void setup()
 	{
+		
 		System.out.println("Setup method");
 	}
 	

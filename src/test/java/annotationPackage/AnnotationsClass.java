@@ -14,6 +14,8 @@ public class AnnotationsClass {
 		System.out.println("Open google url");
 	}
 	
+	
+	
 	@AfterClass
 	public void closeURL()
 	{
