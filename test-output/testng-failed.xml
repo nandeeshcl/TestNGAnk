@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Regression-Test(failed)">
+  <test name="Test(failed)">
     <classes>
-      <class name="assertionPackage.softAssertion">
+      <class name="dataProviderPackage.DataProviderClass1">
         <methods>
-          <include name="sum"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- assertionPackage.softAssertion -->
+      </class> <!-- dataProviderPackage.DataProviderClass1 -->
     </classes>
-  </test> <!-- Regression-Test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
