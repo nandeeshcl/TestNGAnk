@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+	<test name="ChromeTest">
+
+
+		<parameter name="br" value="chrome" />
+
+		<classes>
+			<class name="parameterizationPackage.BrowserLaunch" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="FirefoxTest">
+
+
+		<parameter name="br" value="firefox" />
+
+		<classes>
+			<class name="parameterizationPackage.BrowserLaunch" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="IETest">
+
+
+		<parameter name="br" value="IE" />
+
+		<classes>
+			<class name="parameterizationPackage.BrowserLaunch" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

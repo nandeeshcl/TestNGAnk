@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="dataProviderPackage.DataProviderClass1">
+      <class name="reflectionpackage.Reflections">
         <methods>
-          <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="userDelete"/>
         </methods>
-      </class> <!-- dataProviderPackage.DataProviderClass1 -->
+      </class> <!-- reflectionpackage.Reflections -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

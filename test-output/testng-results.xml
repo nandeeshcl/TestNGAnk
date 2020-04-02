@@ -1,52 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22" started-at="2020-03-30T14:23:33Z" finished-at="2020-03-30T14:23:33Z">
+  <suite name="Suite" duration-ms="28" started-at="2020-04-02T12:16:04Z" finished-at="2020-04-02T12:16:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22" started-at="2020-03-30T14:23:33Z" finished-at="2020-03-30T14:23:33Z">
-      <class name="dataProviderPackage.DataProviderClass1">
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataProviderPackage.DataProviderClass1@402f32ff]" name="login" duration-ms="10" started-at="2020-03-30T19:53:33Z" data-provider="testData" finished-at="2020-03-30T19:53:33Z">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-Data provider mismatch
-Method: login([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String)appu@gmail.com,(java.lang.String)appu123,null]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-Data provider mismatch
-Method: login([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String)appu@gmail.com,(java.lang.String)appu123,null]
-	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:52)
-	at org.testng.internal.Invoker.injectParameters(Invoker.java:1228)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1125)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+    <test name="Test" duration-ms="28" started-at="2020-04-02T12:16:04Z" finished-at="2020-04-02T12:16:04Z">
+      <class name="reflectionpackage.Reflections">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:reflectionpackage.Reflections@5f375618]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-04-02T17:46:04Z" finished-at="2020-04-02T17:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void reflectionpackage.Reflections.userCreate()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- dataProviderPackage.DataProviderClass1 -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="userCreate()[pri:0, instance:reflectionpackage.Reflections@5f375618]" name="userCreate" duration-ms="5" started-at="2020-04-02T17:46:04Z" finished-at="2020-04-02T17:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCreate -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:reflectionpackage.Reflections@5f375618]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-02T17:46:04Z" finished-at="2020-04-02T17:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCreate status=SUCCESS method=Reflections.userCreate()[pri:0, instance:reflectionpackage.Reflections@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="userDelete()[pri:0, instance:reflectionpackage.Reflections@5f375618]" name="userDelete" duration-ms="1" started-at="2020-04-02T17:46:04Z" finished-at="2020-04-02T17:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDelete -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:reflectionpackage.Reflections@5f375618]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-04-02T17:46:04Z" finished-at="2020-04-02T17:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void reflectionpackage.Reflections.userDelete()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:reflectionpackage.Reflections@5f375618]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-02T17:46:04Z" finished-at="2020-04-02T17:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userDelete status=SUCCESS method=Reflections.userDelete()[pri:0, instance:reflectionpackage.Reflections@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- reflectionpackage.Reflections -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
