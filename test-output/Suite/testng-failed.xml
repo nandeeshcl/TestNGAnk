@@ -9,6 +9,8 @@
       <class name="listernerpackage.AdminClass">
         <methods>
           <include name="adminRegister"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- listernerpackage.AdminClass -->
     </classes>
