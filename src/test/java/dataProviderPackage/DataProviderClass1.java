@@ -7,12 +7,14 @@ public class DataProviderClass1 {
 	
 	
 	@Test(dataProvider="testData",dataProviderClass=DataClass.class)
-	public void login(String email,String password)
+	public void login(String email,String password) throws InterruptedException
 	{
 		System.out.println("Login started");
 		System.out.println("Email is: "+email);
 		System.out.println("Password is: "+password);
 		System.out.println("Login ended");
+		
+		Thread.sleep(5000);
 		
 	}
 

@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\API_Testing_W2A\API_Testing_Framework\TestNGPractise\ParalletTestng.xml</span>
+                    <span>D:\API_Testing_W2A\API_Testing_Framework\TestNGPractise\dataProviderTestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +102,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="paralleltesting.Test1" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dataProviderPackage.DataProviderClass1" hash-for-method="login(raghu@gmail.com, raghu123)">login(raghu@gmail.com, raghu123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="paralleltesting.Test1" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dataProviderPackage.DataProviderClass1" hash-for-method="login(appu@gmail.com, appu123)">login(appu@gmail.com, appu123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="paralleltesting.Test1" hash-for-method="register">register</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="paralleltesting.Test1" hash-for-method="register">register</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="dataProviderPackage.DataProviderClass1" hash-for-method="login(shivu@gmail.com, shivu123)">login(shivu@gmail.com, shivu123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -135,35 +130,31 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">paralleltesting.Test1</span>
+              <span class="class-name">dataProviderPackage.DataProviderClass1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
+                  <a name="login(raghu@gmail.com, raghu123)">
+                  </a> <!-- login(raghu@gmail.com, raghu123) -->
                   <span class="method-name">login</span>
+                  <span class="parameters">(raghu@gmail.com, raghu123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
+                  <a name="login(appu@gmail.com, appu123)">
+                  </a> <!-- login(appu@gmail.com, appu123) -->
                   <span class="method-name">login</span>
+                  <span class="parameters">(appu@gmail.com, appu123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="register">
-                  </a> <!-- register -->
-                  <span class="method-name">register</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="register">
-                  </a> <!-- register -->
-                  <span class="method-name">register</span>
+                  <a name="login(shivu@gmail.com, shivu123)">
+                  </a> <!-- login(shivu@gmail.com, shivu123) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(shivu@gmail.com, shivu123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,23 +162,18 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\API_Testing_W2A\API_Testing_Framework\TestNGPractise\ParalletTestng.xml</span>
+            <span class="header-content">D:\API_Testing_W2A\API_Testing_Framework\TestNGPractise\dataProviderTestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test name=&quot;Test1&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;paralleltesting.Test1&quot;/&gt;
+      &lt;class name=&quot;dataProviderPackage.DataProviderClass1&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test name=&quot;Test2&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;paralleltesting.Test1&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,10 +185,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test2 (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,28 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'paralleltesting.Test1')
-data.setCell(0, 3, 50017);
+data.setCell(0, 2, 'dataProviderPackage.DataProviderClass1')
+data.setCell(0, 3, 5021);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'paralleltesting.Test1')
-data.setCell(1, 3, 50017);
+data.setCell(1, 2, 'dataProviderPackage.DataProviderClass1')
+data.setCell(1, 3, 5021);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'register')
-data.setCell(2, 2, 'paralleltesting.Test1')
-data.setCell(2, 3, 6);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'register')
-data.setCell(3, 2, 'paralleltesting.Test1')
-data.setCell(3, 3, 6);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'dataProviderPackage.DataProviderClass1')
+data.setCell(2, 3, 5021);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -275,22 +254,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">paralleltesting.Test1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">dataProviderPackage.DataProviderClass1</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">login</span>
+                <span class="method-name">login(appu@gmail.com, appu123)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">login</span>
+                <span class="method-name">login(shivu@gmail.com, shivu123)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">register</span>
-                <span class="method-start">50022 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">register</span>
-                <span class="method-start">50025 ms</span>
+                <span class="method-name">login(raghu@gmail.com, raghu123)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

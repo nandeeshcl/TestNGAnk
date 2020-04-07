@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50052" started-at="2020-04-06T13:09:40Z" finished-at="2020-04-06T13:10:30Z">
+  <suite name="Suite" duration-ms="5062" started-at="2020-04-07T12:48:18Z" finished-at="2020-04-07T12:48:23Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="50052" started-at="2020-04-06T13:09:40Z" finished-at="2020-04-06T13:10:30Z">
-      <class name="paralleltesting.Test1">
-        <test-method status="PASS" signature="login()[pri:0, instance:paralleltesting.Test1@9629756]" name="login" duration-ms="50017" started-at="2020-04-06T18:39:40Z" finished-at="2020-04-06T18:40:30Z">
+    <test name="Test" duration-ms="5062" started-at="2020-04-07T12:48:18Z" finished-at="2020-04-07T12:48:23Z">
+      <class name="dataProviderPackage.DataProviderClass1">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataProviderPackage.DataProviderClass1@48eff760]" name="login" duration-ms="5021" started-at="2020-04-07T18:18:18Z" data-provider="testData" finished-at="2020-04-07T18:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raghu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raghu123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="register()[pri:0, instance:paralleltesting.Test1@9629756]" name="register" duration-ms="6" started-at="2020-04-06T18:40:30Z" finished-at="2020-04-06T18:40:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register -->
-      </class> <!-- paralleltesting.Test1 -->
-    </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="50052" started-at="2020-04-06T13:09:40Z" finished-at="2020-04-06T13:10:30Z">
-      <class name="paralleltesting.Test1">
-        <test-method status="PASS" signature="login()[pri:0, instance:paralleltesting.Test1@7c0e2abd]" name="login" duration-ms="50017" started-at="2020-04-06T18:39:40Z" finished-at="2020-04-06T18:40:30Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataProviderPackage.DataProviderClass1@48eff760]" name="login" duration-ms="5021" started-at="2020-04-07T18:18:18Z" data-provider="testData" finished-at="2020-04-07T18:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[appu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[appu123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="register()[pri:0, instance:paralleltesting.Test1@7c0e2abd]" name="register" duration-ms="6" started-at="2020-04-06T18:40:30Z" finished-at="2020-04-06T18:40:30Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:dataProviderPackage.DataProviderClass1@48eff760]" name="login" duration-ms="5021" started-at="2020-04-07T18:18:18Z" data-provider="testData" finished-at="2020-04-07T18:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivu123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register -->
-      </class> <!-- paralleltesting.Test1 -->
-    </test> <!-- Test1 -->
+        </test-method> <!-- login -->
+      </class> <!-- dataProviderPackage.DataProviderClass1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
